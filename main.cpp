@@ -44,6 +44,7 @@ int main()
   {
     student1.borrowBook(*targetBook);
   }
+  student1.displayHistory();
 
   // 6. 查看借阅后的状态
   cout << "\n--- 借阅后学生状态 ---" << endl;
